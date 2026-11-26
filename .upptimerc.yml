@@ -12,9 +12,7 @@ sites:
     url: https://signflick.com/.well-known/oauth-authorization-server
 
 status-website:
-  # Served at https://tdisney2025.github.io/signflick-status until status.signflick.com is attached;
-  # then replace baseUrl with: cname: status.signflick.com
-  baseUrl: /signflick-status
+  cname: status.signflick.com
   name: SignFlick status
   introTitle: "**SignFlick** status"
   introMessage: Whether the website, sign-in, sign-up and connected apps are up right now, checked every 5 minutes.
@@ -23,3 +21,4 @@ status-website:
       href: /
     - title: SignFlick
       href: https://signflick.com
+
